@@ -1,0 +1,70 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.bookInfo-right {
+  float: right;
+  width: 50%;
+}
+
+@media screen and (max-width: 760px) {
+  .bookInfo-right {
+    width: 100%;
+  }
+}
+
+.header {
+  background: aquamarine;
+  padding: 20px 20px;
+}
+.header > a {
+  margin-left: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container > label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input, textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.col-75 > p {
+  margin: 0;
+}
